@@ -1,1 +1,171 @@
-<h1>Hello Git World!</h1>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>
+            Test | Page
+        </title>
+        <link id="Link1" rel="shortcut icon" href="Images/favicon.ico" type="image/x-icon" />
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" />
+        <meta name="google-site-verification" content="AMcCnyG0qq3_TW5-0u9fZbQJ44AWkRoUfBMDOL7dZHw" />
+        <meta name="msvalidate.01" content="8FC18FBEED315E7337B0054546EC38C0" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <style>
+            .alert-warning {
+                background-color: orange;
+                color: #000 !important;
+                border-color: transparent;
+                border-radius: 0;
+            }
+
+            .alert-warning a {
+                color: #000 !important;
+                border-color: #000 !important;
+            }
+
+            @media only screen and (max-width: 768px) {
+                .title-logo {
+                    top: 113px;
+                }
+            }
+
+            @media(max-width:1067px) {
+                .navbar-brand img {
+                    width: 80px;
+                    height: auto;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <header>
+                <div class="alert alert-warning no-padding m-0" id="Intro">
+                    <div class="alert alert-warning text-center m-0" role="alert">
+                        <div class="container no-padding">
+                            <div class="row">
+                                <div class="col-xs-12 col-md-3 col-lg-3 no-padding">
+                                    <p>
+                                        <i class="fa fa-exclamation-triangle" aria-hidden="true"></i><strong>COVID-19 Updates:</strong>
+                                    </p>
+                                </div>
+                                <div class="col-xs-12 col-md-4 col-lg-3">
+                                    <p>
+                                        <a href="~/Miscellaneous/Covid19.aspx" runat="server">View CME Course Updates</a>
+                                    </p>
+                                </div>
+                                <div class="col-xs-12 col-md-4 col-lg-4">
+                                    <p>
+                                        <a href="~/Miscellaneous/Covid19_ASMT.aspx" runat="server">View Assessment Program Updates</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div><a id="PACE" class="nav-link text-right" href="~/Default.aspx" >Physician Assessment and Clinical Education (PACE)</a></div> -->
+                <div class="container-fluid bg-light">
+                    <div class="row">
+                        <div class="col-md-8 float-left">
+                        <a class="navbar-brand my-auto" href="https://medschool.ucsd.edu/Pages/default.aspx">
+                            <img src="Images/logo-som_dk_blue_new.png" alt="UC San Diego School of Medicine Logo" /></a>
+                        </div>
+                        <div class="col-md-4 text-right">
+                            <a id="PACE" class="nav-link text-right" href="~/Default.aspx" style="color: #12284c">Physician Assessment and Clinical Education (PACE)</a>
+                    </div>
+                    </div>
+                </div>
+                <div>
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light no-padding">
+<!--                         <a class="navbar-brand my-auto" href="https://medschool.ucsd.edu/Pages/default.aspx">
+                            <img runat="server" src="~/Images/logo-som_dk_blue_new.png" /></a> -->
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+            
+                        <div class="collapse navbar-collapse flex-md-column" id="navbarSupportedContent">
+<!--                             <ul class="navbar-nav ml-auto">
+                                <li class="nav-item">
+                                    <a id="PACE" class="nav-link" href="~/Default.aspx" runat="server">Physician Assessment and Clinical Education (PACE)</a>
+                                </li>
+                            </ul> -->
+                            <ul class="navbar-nav my-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="~/Default.aspx" runat="server">Home</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownAssess" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Assessment
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="~/Assessment/Assessment.aspx" runat="server">Competency Assessment</a></li>
+                                        <li><a class="dropdown-item" href="~/Assessment/PAAssess.aspx" runat="server">Physician Assistant Assessment</a></li>
+                                        <li>
+                                            <div class="dropdown-divider"></div>
+                                        </li>
+                                        <li><a class="dropdown-item" href="~/Assessment/FFD.aspx" runat="server">Fitness For Duty</a></li>
+                                        <li>
+                                            <div class="dropdown-divider"></div>
+                                        </li>
+                                        <li class="dropdown-submenu">
+                                            <a class="dropdown-item dropdown-toggle" data-toggle="dropdown" href="#">Cancellations</a>
+                                            <ul class="dropdown-menu">
+                                                <li class="dropdown-item dropdown-submenu">
+                                                    <a href="~/Cancellations/AssessmentCancellation.aspx" class="dropdown-item" runat="server">Competency</a>
+                                                </li>
+                                                <li class="dropdown-item dropdown-submenu">
+                                                    <a href="~/Cancellations/FFDCancellation.aspx" class="dropdown-item" runat="server">Fitness For Duty</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="~/CME/CME.aspx" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" runat="server">CME</a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdownCME">
+                                        <a class="dropdown-item" href="~/CME/Anger.aspx" runat="server">Anger Management for Healthcare Professionals</a>
+                                        <a class="dropdown-item" href="~/CME/PatientCom.aspx" runat="server">Clinician-Patient Communication</a>
+                                        <a class="dropdown-item" href="~/CME/MHIE.aspx" runat="server">Managing High Impact Emotions</a>
+                                        <a class="dropdown-item" href="~/CME/Record.aspx" runat="server">Medical Record Keeping</a>
+                                        <a class="dropdown-item" href="~/CME/Prescribing.aspx" runat="server">Physician Prescribing</a>
+                                        <a class="dropdown-item" href="~/CME/Boundaries.aspx" runat="server">Professional Boundaries</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="~/CME/Custom.aspx" runat="server">Custom Programs</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="~/Cancellations/CourseCancellation.aspx" runat="server">Cancellations</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="~/Assessment/LCHS/LCHS_Main.aspx" runat="server">Late Career Health Screening</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="~/PEP/PEP.aspx" runat="server">PEP</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="~/Miscellaneous/Documents.aspx" runat="server">Applications/Documents</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMisc" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="~/Miscellaneous/About.aspx" runat="server">Mission Statement</a>
+                                        <a class="dropdown-item" href="~/Miscellaneous/Contact.aspx" runat="server">Contact Us</a>
+                                        <a class="dropdown-item" href="~/Miscellaneous/Links.aspx" runat="server">Links</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item mx-3">
+                                    <a class="nav-link" runat="server" href="https://paceprogram2.ucsd.edu/portal/pay/index" target="_blank">Pay Invoice</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+        <h1>Hello Git World!</h1>
+        </div>
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+            <script src="../Scripts/SubMenu.js"></script>
+</body>
+</html>
