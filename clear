@@ -1,0 +1,179 @@
+[1mdiff --git a/index.html b/index.html[m
+[1mindex 950ef60..f67bb25 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -1 +1,171 @@[m
+[31m-<h1>Hello Git World!</h1>[m
+\ No newline at end of file[m
+[32m+[m[32m<!DOCTYPE html>[m
+[32m+[m[32m<html xmlns="http://www.w3.org/1999/xhtml">[m
+[32m+[m[32m    <head>[m
+[32m+[m[32m        <title>[m
+[32m+[m[32m            Test | Page[m
+[32m+[m[32m        </title>[m
+[32m+[m[32m        <link id="Link1" rel="shortcut icon" href="Images/favicon.ico" type="image/x-icon" />[m
+[32m+[m[32m        <!-- Bootstrap CSS -->[m
+[32m+[m[32m        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />[m
+[32m+[m[32m        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" />[m
+[32m+[m[32m        <meta name="google-site-verification" content="AMcCnyG0qq3_TW5-0u9fZbQJ44AWkRoUfBMDOL7dZHw" />[m
+[32m+[m[32m        <meta name="msvalidate.01" content="8FC18FBEED315E7337B0054546EC38C0" />[m
+[32m+[m[32m        <meta name="viewport" content="width=device-width, initial-scale=1.0" />[m
+[32m+[m[32m        <style>[m
+[32m+[m[32m            .alert-warning {[m
+[32m+[m[32m                background-color: orange;[m
+[32m+[m[32m                color: #000 !important;[m
+[32m+[m[32m                border-color: transparent;[m
+[32m+[m[32m                border-radius: 0;[m
+[32m+[m[32m            }[m
+[32m+[m
+[32m+[m[32m            .alert-warning a {[m
+[32m+[m[32m                color: #000 !important;[m
+[32m+[m[32m                border-color: #000 !important;[m
+[32m+[m[32m            }[m
+[32m+[m
+[32m+[m[32m            @media only screen and (max-width: 768px) {[m
+[32m+[m[32m                .title-logo {[m
+[32m+[m[32m                    top: 113px;[m
+[32m+[m[32m                }[m
+[32m+[m[32m            }[m
+[32m+[m
+[32m+[m[32m            @media(max-width:1067px) {[m
+[32m+[m[32m                .navbar-brand img {[m
+[32m+[m[32m                    width: 80px;[m
+[32m+[m[32m                    height: auto;[m
+[32m+[m[32m                }[m
+[32m+[m[32m            }[m
+[32m+[m[32m        </style>[m
+[32m+[m[32m    </head>[m
+[32m+[m[32m    <body>[m
+[32m+[m[32m        <div>[m
+[32m+[m[32m            <header>[m
+[32m+[m[32m                <div class="alert alert-warning no-padding m-0" id="Intro">[m
+[32m+[m[32m                    <div class="alert alert-warning text-center m-0" role="alert">[m
+[32m+[m[32m                        <div class="container no-padding">[m
+[32m+[m[32m                            <div class="row">[m
+[32m+[m[32m                                <div class="col-xs-12 col-md-3 col-lg-3 no-padding">[m
+[32m+[m[32m                                    <p>[m
+[32m+[m[32m                                        <i class="fa fa-exclamation-triangle" aria-hidden="true"></i><strong>COVID-19 Updates:</strong>[m
+[32m+[m[32m                                    </p>[m
+[32m+[m[32m                                </div>[m
+[32m+[m[32m                                <div class="col-xs-12 col-md-4 col-lg-3">[m
+[32m+[m[32m                                    <p>[m
+[32m+[m[32m                                        <a href="~/Miscellaneous/Covid19.aspx" runat="server">View CME Course Updates</a>[m
+[32m+[m[32m                                    </p>[m
+[32m+[m[32m                                </div>[m
+[32m+[m[32m                                <div class="col-xs-12 col-md-4 col-lg-4">[m
+[32m+[m[32m                                    <p>[m
+[32m+[m[32m                                        <a href="~/Miscellaneous/Covid19_ASMT.aspx" runat="server">View Assessment Program Updates</a>[m
+[32m+[m[32m                                    </p>[m
+[32m+[m[32m                                </div>[m
+[32m+[m[32m                            </div>[m
+[32m+[m[32m                        </div>[m
+[32m+[m[32m                    </div>[m
+[32m+[m[32m                </div>[m
+[32m+[m[32m                <!-- <div><a id="PACE" class="nav-link text-right" href="~/Default.aspx" >Physician Assessment and Clinical Education (PACE)</a></div> -->[m
+[32m+[m[32m                <div class="container-fluid bg-light">[m
+[32m+[m[32m                    <div class="row">[m
+[32m+[m[32m                        <div class="col-md-8 float-left">[m
+[32m+[m[32m                        <a class="navbar-brand my-auto" href="https://medschool.ucsd.edu/Pages/default.aspx">[m
+[32m+[m[32m                            <img src="Images/logo-som_dk_blue_new.png" alt="UC San Diego School of Medicine Logo" /></a>[m
+[32m+[m[32m                        </div>[m
+[32m+[m[32m                        <div class="col-md-4 text-right">[m
+[32m+[m[32m                            <a id="PACE" class="nav-link text-right" href="~/Default.aspx" style="color: #12284c">Physician Assessment and Clinical Education (PACE)</a>[m
+[32m+[m[32m                    </div>[m
+[32m+[m[32m                    </div>[m
+[32m+[m[32m                </div>[m
+[32m+[m[32m                <div>[m
+[32m+[m[32m                    <nav class="navbar navbar-expand-lg navbar-light bg-light no-padding">[m
+[32m+[m[32m<!--                         <a class="navbar-brand my-auto" href="https://medschool.ucsd.edu/Pages/default.aspx">[m
+[32m+[m[32m                            <img runat="server" src="~/Images/logo-som_dk_blue_new.png" /></a> -->[m
+[32m+[m[32m                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">[m
+[32m+[m[32m                            <span class="navbar-toggler-icon"></span>[m
+[32m+[m[32m                        </button>[m
+[32m+[m[41m            [m
+[32m+[m[32m                        <div class="collapse navbar-collapse flex-md-column" id="navbarSupportedContent">[m
+[32m+[m[32m<!--                             <ul class="navbar-nav ml-auto">[m
+[32m+[m[32m                                <li class="nav-item">[m
+[32m+[m[32m                                    <a id="PACE" class="nav-link" href="~/Default.aspx" runat="server">Physician Assessment and Clinical Education (PACE)</a>[m
+[32m+[m[32m                                </li>[m
+[32m+[m[32m                            </ul> -->[m
+[32m+[m[32m                            <ul class="navbar-nav my-auto">[m
+[32m+[m[32m                                <li class="nav-item">[m
+[32m+[m[32m                                    <a class="nav-link" href="~/Default.aspx" runat="server">Home</a>[m
+[32m+[m[32m                                </li>[m
+[32m+[m[32m                                <li class="nav-item dropdown">[m
+[32m+[m[32m                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownAssess" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Assessment[m
+[32m+[m[32m                                    </a>[m
+[32m+[m[32m                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">[m
+[32m+[m[32m                                        <li><a class="dropdown-item" href="~/Assessment/Assessment.aspx" runat="server">Competency Assessment</a></li>[m
+[32m+[m[32m                                        <li><a class="dropdown-item" href="~/Assessment/PAAssess.aspx" runat="server">Physician Assistant Assessment</a></li>[m
+[32m+[m[32m                                        <li>[m
+[32m+[m[32m                                            <div class="dropdown-divider"></div>[m
+[32m+[m[32m                                        </li>[m
+[32m+[m[32m                                        <li><a class="dropdown-item" href="~/Assessment/FFD.aspx" runat="server">Fitness For Duty</a></li>[m
+[32m+[m[32m                                        <li>[m
+[32m+[m[32m                                            <div class="dropdown-divider"></div>[m
+[32m+[m[32m                                        </li>[m
+[32m+[m[32m                                        <li class="dropdown-submenu">[m
+[32m+[m[32m                                            <a class="dropdown-item dropdown-toggle" data-toggle="dropdown" href="#">Cancellations</a>[m
+[32m+[m[32m                                            <ul class="dropdown-menu">[m
+[32m+[m[32m                                                <li class="dropdown-item dropdown-submenu">[m
+[32m+[m[32m                                                    <a href="~/Cancellations/AssessmentCancellation.aspx" class="dropdown-item" runat="server">Competency</a>[m
+[32m+[m[32m                                                </li>[m
+[32m+[m[32m                                                <li class="dropdown-item dropdown-submenu">[m
+[32m+[m[32m                                                    <a href="~/Cancellations/FFDCancellation.aspx" class="dropdown-item" runat="server">Fitness For Duty</a>[m
+[32m+[m[32m                                                </li>[m
+[32m+[m[32m                                            </ul>[m
+[32m+[m[32m                                        </li>[m
+[32m+[m[32m                                    </ul>[m
+[32m+[m[32m                                </li>[m
+[32m+[m[32m                                <li class="nav-item dropdown">[m
+[32m+[m[32m                                    <a class="nav-link dropdown-toggle" href="~/CME/CME.aspx" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" runat="server">CME</a>[m
+[32m+[m[32m                                    <div class="dropdown-menu" aria-labelledby="navbarDropdownCME">[m
+[32m+[m[32m                                        <a class="dropdown-item" href="~/CME/Anger.aspx" runat="server">Anger Management for Healthcare Professionals</a>[m
+[32m+[m[32m                                        <a class="dropdown-item" href="~/CME/PatientCom.aspx" runat="server">Clinician-Patient Communication</a>[m
+[32m+[m[32m                                        <a class="dropdown-item" href="~/CME/MHIE.aspx" runat="server">Managing High Impact Emotions</a>[m
+[32m+[m[32m                                        <a class="dropdown-item" href="~/CME/Record.aspx" runat="server">Medical Record Keeping</a>[m
+[32m+[m[32m                                        <a class="dropdown-item" href="~/CME/Prescribing.aspx" runat="server">Physician Prescribing</a>[m
+[32m+[m[32m                                        <a class="dropdown-item" href="~/CME/Boundaries.aspx" runat="server">Professional Boundaries</a>[m
+[32m+[m[32m                                        <div class="dropdown-divider"></div>[m
+[32m+[m[32m                                        <a class="dropdown-item" href="~/CME/Custom.aspx" runat="server">Custom Programs</a>[m
+[32m+[m[32m                                        <div class="dropdown-divider"></div>[m
+[32m+[m[32m                                        <a class="dropdown-item" href="~/Cancellations/CourseCancellation.aspx" runat="server">Cancellations</a>[m
+[32m+[m[32m                                    </div>[m
+[32m+[m[32m                                </li>[m
+[32m+[m[32m                                <li class="nav-item">[m
+[32m+[m[32m                                    <a class="nav-link" href="~/Assessment/LCHS/LCHS_Main.aspx" runat="server">Late Career Health Screening</a>[m
+[32m+[m[32m                                </li>[m
+[32m+[m[32m                                <li class="nav-item">[m
+[32m+[m[32m                                    <a class="nav-link" href="~/PEP/PEP.aspx" runat="server">PEP</a>[m
+[32m+[m[32m                                </li>[m
+[32m+[m[32m                                <li class="nav-item">[m
+[32m+[m[32m                                    <a class="nav-link" href="~/Miscellaneous/Documents.aspx" runat="server">Applications/Documents</a>[m
+[32m+[m[32m                                </li>[m
+[32m+[m[32m                                <li class="nav-item dropdown">[m
+[32m+[m[32m                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMisc" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About[m
+[32m+[m[32m                                    </a>[m
+[32m+[m[32m                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">[m
+[32m+[m[32m                                        <a class="dropdown-item" href="~/Miscellaneous/About.aspx" runat="server">Mission Statement</a>[m
+[32m+[m[32m                                        <a class="dropdown-item" href="~/Miscellaneous/Contact.aspx" runat="server">Contact Us</a>[m
+[32m+[m[32m                                        <a class="dropdown-item" href="~/Miscellaneous/Links.aspx" runat="server">Links</a>[m
+[32m+[m[32m                                    </div>[m
+[32m+[m[32m                                </li>[m
+[32m+[m[32m                                <li class="nav-item mx-3">[m
+[32m+[m[32m                                    <a class="nav-link" runat="server" href="https://paceprogram2.ucsd.edu/portal/pay/index" target="_blank">Pay Invoice</a>[m
+[32m+[m[32m                                </li>[m
+[32m+[m[32m                            </ul>[m
+[32m+[m[32m                        </div>[m
+[32m+[m[32m                    </nav>[m
+[32m+[m[32m                </div>[m
+[32m+[m[32m            </header>[m
+[32m+[m[32m        <h1>Hello Git World!</h1>[m
+[32m+[m[32m        </div>[m
+[32m+[m[32m            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>[m
+[32m+[m[32m            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>[m
+[32m+[m[32m            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>[m
+[32m+[m[32m            <script src="../Scripts/SubMenu.js"></script>[m
+[32m+[m[32m</body>[m
+[32m+[m[32m</html>[m
+\ No newline at end of file[m
